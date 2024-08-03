@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    
+}
+.building{
+    width: 250px;
+    height: 600px;
+    background-color: lightgray;
+}
+.floor{
+    width: 250px;
+    height: 150px;
+    background-color: gray;
+    border: 1px solid;
+    text-align: center;
+}
+.elevator{
+    width: 250px;
+    height: 152px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 18px;
+    transition: top 3s;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 10vh;
+}
+.control{
+    position: relative;
+    left: 100px;
+    top: 200px;
+}
+.buttons button{
+    font-size: 30px;
+    cursor: pointer;
+}
